@@ -1,0 +1,41 @@
+---
+import NavBar from "../components/navegacion/NavBar.astro";
+import Footer from "../components/footer/Footer.astro";
+
+import Data from "../DATA/data-es.json";
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" href={Data.About.logo} type="image/x-icon" />
+		<title>{Data.Home.titulo}</title>
+	</head>
+	<body>
+
+		<!-- Presentacion - rascacielos azules
+		Work with us - CTA a contacto
+		Servicios: Consultoria, Comercio exterior(contenedores y mapitas), Ciberseguridad
+		Formulario de contacto aparte -->
+
+		<!-- Componentes del Layout -->
+		<NavBar />
+		<slot />
+
+		<Footer />
+	</body>
+</html>
+
+<style>
+	html {
+	  scroll-behavior: smooth;
+	}
+	body {
+	  font-family: "Roboto", sans-serif;
+	}
+</style>
+
+

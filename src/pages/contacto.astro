@@ -1,0 +1,39 @@
+---
+import NavBar from "../components/navegacion/NavBar.astro";
+import Formulario from "../components/contacto/Formulario.astro";
+import Footer from "../components/footer/Footer.astro";
+import Data from "../DATA/data-es.json";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href={Data.About.logo} type="image/x-icon" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{Data.Home.titulo}</title>
+    </head>
+    <body class="flex flex-col min-h-screen">
+        <div class="flex-grow relative">
+            <img
+                src={Data.Contacto.imagenFondo}
+                class="absolute inset-0 w-full h-full object-cover z-0"
+                alt="Background Image"
+            />
+            <div class="relative z-10">
+                <NavBar />
+                <div class="pt-20 pb-10">
+                    <Formulario />
+                </div>
+            </div>
+        </div>
+        <Footer class="mt-auto" />
+    </body>
+</html>
+
+<style>
+    smooth-scroll {
+        scroll-behavior: smooth;
+    }
+</style>

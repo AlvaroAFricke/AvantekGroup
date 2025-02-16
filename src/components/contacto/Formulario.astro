@@ -1,0 +1,97 @@
+---
+import Data from "../../DATA/data-es.json";
+---
+<section
+  class="max-w-4xl md:mx-auto mx-4 my-6 p-8 shadow-xl rounded-lg ring-0 ring-gray-700 bg-gradient-to-tl from-gray-900 via-gray-800 to-gray-900"
+>
+  <h2
+    class="text-center md:text-5xl text-3xl font-bold mb-6 pb-4 text-gray-100"
+  >
+    Contáctanos
+  </h2>
+
+  <form id="contactForm" class="space-y-4">
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <label for="cliNombre" class="block text-lg font-medium text-gray-300"
+          >{Data.Contacto.nombre}</label
+        >
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Tu nombre"
+          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div>
+        <label for="cliApellido" class="block text-lg font-medium text-gray-300"
+          >{Data.Contacto.apellido}</label
+        >
+        <input
+          type="text"
+          name="apellido"
+          placeholder="Tu apellido"
+          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div>
+        <label for="cliEmpresa" class="block text-lg font-medium text-gray-300"
+          >{Data.Contacto.empresa}</label
+        >
+        <input
+          type="text"
+          name="empresa"
+          placeholder="Nombre de tu empresa"
+          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div>
+        <label for="cliAsunto" class="block text-lg font-medium text-gray-300"
+          >{Data.Contacto.asunto}</label
+        >
+        <input
+          type="text"
+          name="asunto"
+          placeholder="Tu asunto"
+          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+    </div>
+
+    <div>
+      <label for="cliEmail" class="block text-lg font-medium text-gray-300"
+        >{Data.Contacto.correo}</label
+      >
+      <input
+        type="email"
+        name="email"
+        placeholder="correo@ejemplo.com"
+        class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+    </div>
+
+    <div>
+      <label for="cliMensaje" class="block text-lg font-medium text-gray-300"
+        >{Data.Contacto.mensaje}</label
+      >
+      <textarea
+        name="mensaje"
+        rows="5"
+        placeholder="Escribí tu mensaje aquí..."
+        class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+      ></textarea>
+    </div>
+
+    <div class="flex justify-center">
+      <button
+        type="submit"
+        class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
+      >
+        {Data.Contacto.boton}
+      </button>
+    </div>
+  </form>
+</section>
+
+<script src="../../scripts/mailer.js"></script>

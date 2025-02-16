@@ -1,0 +1,50 @@
+---
+import Data from "../../DATA/data-es.json";
+---
+
+<section id="Soluciones" class="">
+  {
+    Data.Soluciones.map((solucion, index) => (
+      <div
+        class={`grid grid-cols-1 md:grid-cols-2 items-center gap-8 py-4 px-2 ${index % 2 === 0 ? "bg-white" : "bg-sky-950"}`}
+      >
+        {index % 2 === 0 ? (
+          <>
+            <img
+              src={solucion.imagen}
+              alt=""
+              class="w-full h-[100] object-cover rounded-lg"
+            />
+            <div class="p-8 rounded-2xl text-center md:text-right">
+              <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+                {solucion.titulo}
+              </h2>
+              <hr class="my-2 border-green-600">
+              <p class="text-lg md:text-xl text-gray-800 leading-relaxed">
+                {solucion.descripcion}
+              </p>
+              <img class="p-2 bg-black rounded-full w-10 h-10" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMCA4djJoNi41ODZMMTggMTguNTg2bC00LjI5My00LjI5M2ExIDEgMCAwIDAtMS40MTQgMEwyIDI0LjU4NkwzLjQxNCAyNkwxMyAxNi40MTRsNC4yOTMgNC4yOTNhMSAxIDAgMCAwIDEuNDE0IDBMMjggMTEuNDE0VjE4aDJWOFoiLz48L3N2Zz4=" alt="">
+            </div>
+          </>
+        ) : (
+          <>
+            <div class="p-8 rounded-2xl text-center md:text-left">
+              <h2 class="text-4xl md:text-5xl font-extrabold text-gray-200 leading-tight mb-4">
+                {solucion.titulo}
+              </h2>
+              <hr class="my-2 border-sky-300">
+              <p class="text-lg md:text-xl text-gray-100 leading-relaxed">
+                {solucion.descripcion}
+              </p>
+            </div>
+            <img
+              src={solucion.imagen}
+              alt=""
+              class="w-full h-96 object-cover rounded-lg"
+            />
+          </>
+        )}
+      </div>
+    ))
+  }
+</section>
