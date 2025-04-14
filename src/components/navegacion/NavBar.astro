@@ -1,22 +1,34 @@
 ---
 import NavItem from "./NavItem.astro";
+import NavSol from "./NavSol.astro";
 import Data from "../../DATA/data-es.json";
 ---
 
 <nav
   id="nav"
-  class=" fixed top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 border-b border-white-600 bg-zinc-900"
+  class="fixed top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 border-b border-black bg-slate-400 bg-opacity-60"
 >
-  <div class="flex flex-row justify-between items-center p-3">
-    <img src={Data.About.logo} class="size-16 rounded-md ml-16" alt="" srcset="">
+  <div class="flex flex-row justify-between items-center p-2">
+    <img src={Data.About.logo} class="h-28 rounded-md ml-16" alt="" srcset="" />
     <div class="flex flex-row mr-20">
       <div
         id="menu"
         class="hover:text-gray-900 rounded-full md:flex flex-row relative bg-slate-200 p-1 px-2 m-1 hidden"
       >
         {
-          Data.Navegacion.map((elemento) => (
-            <NavItem title={elemento.titulo} url={elemento.url} />
+          Data.Navegacion.map((elemento, index) => (
+            index === 2 ? (
+              <div class="relative group">
+                <NavItem title={elemento.titulo} url={elemento.url} />
+                <div class="absolute hidden group-hover:flex bg-white shadow-md rounded-md flex-col text-base py-2 px-3 text-clip">
+                  {Data.NavegacionSoluciones.map((solucion, index) => (
+                    <NavSol title={solucion.titulo} url={solucion.url} />
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <NavItem title={elemento.titulo} url={elemento.url} />
+            )
           ))
         }
         <!-- <button class="px-5">Es/In</button> -->
@@ -49,17 +61,15 @@ import Data from "../../DATA/data-es.json";
     if (elemento) {
       elemento.classList.remove("backdrop-blur");
       elemento.classList.remove("border-b");
-      elemento.classList.remove("bg-zinc-900")
+
       this.window.addEventListener("scroll", function () {
         if (elemento) {
           if (window.scrollY === 0) {
             elemento.classList.remove("backdrop-blur");
             elemento.classList.remove("border-b");
-            elemento.classList.remove("bg-zinc-900")
           } else {
             elemento.classList.add("backdrop-blur");
             elemento.classList.add("border-b");
-            elemento.classList.add("bg-zinc-900")
           }
         }
       });

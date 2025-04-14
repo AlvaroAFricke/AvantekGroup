@@ -17,35 +17,66 @@
             "url": "/contacto"
         }
     ],
+    "NavegacionSoluciones": [
+        {
+            "titulo": "Crecimiento",
+            "url": "/soluciones/crecimiento"
+        },
+        {
+            "titulo": "Comercio Exterior",
+            "url": "/soluciones/internacional"
+        },
+        {
+            "titulo": "Red de Contactos",
+            "url": "/soluciones/redes"
+        }
+    ],
     "Home": {
         "boton": "Saber Más",
-        "imagen" : "homeTres.jpg",
-        "titulo" : "Upsurge Growth",
+        "imagen" : "home.jpg",
+        "titulo" : "Growth Consultant",
         "slogan" : "Promoviendo el exíto"
     },
 
     "About" : {
-        "titulo" : "Work with us",
-        "descripcion" : "En una era donde lo digital impulsa cada aspecto de nuestras vidas, la seguridad no es una opción, es una necesidad. En ",
+        "titulo" : "Por qué Trabajar con Nosotros?",
+        "descripcion" : "Contamos con años de experiencia acompañando empresas en su crecimiento. Nos enfocamos en soluciones concretas, personalizadas y orientadas a resultados reales. Trabajamos como aliados estratégicos, con compromiso, cercanía y visión a largo plazo.",
         "cta" : "Contactame",
-        "logo" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9InVybCgjSWNvbmlmeUlkMTk0ZmE0MmEzOGRjYWM3YTYyKSIgcng9IjYwIi8+PHBhdGggZmlsbD0iIzMxMjc0QSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTU3LjcxOSAzMy4wMTFjMS42MzQgMi4wMjggMi40NjYgNC43NjUgNC4xMzIgMTAuMjM3bDM2LjM5NiAxMTkuNTYxYTE1MS41IDE1MS41IDAgMCAwLTQzLjUxMy0xNC43MzJsLTIzLjY5Ny04MC4wOGEzLjA4NiAzLjA4NiAwIDAgMC00LjgwOS0xLjU5M2MtLjUzMy40LS45MjIuOTYyLTEuMTA5IDEuNjAybC0yMy40MTEgODAuMDMxQTE1MS41IDE1MS41IDAgMCAwIDU4IDE2Mi43OTFsMzYuNTczLTExOS41N2MxLjY3My01LjQ2NCAyLjUwNy04LjE5NSA0LjE0MS0xMC4yMTlhMTMuNDQgMTMuNDQgMCAwIDEgNS40NDktNC4wMzJjMi40MTQtLjk3IDUuMjctLjk3IDEwLjk4NC0uOTdoMjYuMTIzYzUuNzIxIDAgOC41ODEgMCAxMC45OTcuOTcyYTEzLjQ1IDEzLjQ1IDAgMCAxIDUuNDUyIDQuMDQiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiNGRjVEMDEiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE2Mi4wNzQgMTY4LjQ5OWMtNiA1LjEzMS0xNy45NzYgOC42MjktMzEuNzcgOC42MjljLTE2LjkzMSAwLTMxLjEyMi01LjI3MS0zNC44ODctMTIuMzU5Yy0xLjM0NiA0LjA2My0xLjY0OCA4LjcxMi0xLjY0OCAxMS42ODNjMCAwLS44ODcgMTQuNTg1IDkuMjU3IDI0LjcyOWE5LjU0IDkuNTQgMCAwIDEgOS41MzgtOS41MzhjOS4wMjggMCA5LjAxOCA3Ljg3NyA5LjAwOSAxNC4yNjh2LjU3YzAgOS43IDUuOTI4IDE4LjAxNSAxNC4zNTkgMjEuNTE5YTE5LjU1IDE5LjU1IDAgMCAxLTEuOTY2LTguNTcyYzAtOS4yNTEgNS40MzItMTIuNjk2IDExLjc0NC0xNi42OThjNS4wMjItMy4xODUgMTAuNjAyLTYuNzI0IDE0LjQ0OC0xMy44MjRhMjYuMDYgMjYuMDYgMCAwIDAgMy4xNDUtMTIuNDU0YzAtMi43NzMtLjQzMS01LjQ0NS0xLjIyOS03Ljk1MyIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0idXJsKCNJY29uaWZ5SWQxOTRmYTQyYTM4ZGNhYzdhNjMpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNjIuMDc0IDE2OC40OTljLTYgNS4xMzEtMTcuOTc2IDguNjI5LTMxLjc3IDguNjI5Yy0xNi45MzEgMC0zMS4xMjItNS4yNzEtMzQuODg3LTEyLjM1OWMtMS4zNDYgNC4wNjMtMS42NDggOC43MTItMS42NDggMTEuNjgzYzAgMC0uODg3IDE0LjU4NSA5LjI1NyAyNC43MjlhOS41NCA5LjU0IDAgMCAxIDkuNTM4LTkuNTM4YzkuMDI4IDAgOS4wMTggNy44NzcgOS4wMDkgMTQuMjY4di41N2MwIDkuNyA1LjkyOCAxOC4wMTUgMTQuMzU5IDIxLjUxOWExOS41NSAxOS41NSAwIDAgMS0xLjk2Ni04LjU3MmMwLTkuMjUxIDUuNDMyLTEyLjY5NiAxMS43NDQtMTYuNjk4YzUuMDIyLTMuMTg1IDEwLjYwMi02LjcyNCAxNC40NDgtMTMuODI0YTI2LjA2IDI2LjA2IDAgMCAwIDMuMTQ1LTEyLjQ1NGMwLTIuNzczLS40MzEtNS40NDUtMS4yMjktNy45NTMiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iSWNvbmlmeUlkMTk0ZmE0MmEzOGRjYWM3YTYyIiB4MT0iMTI4IiB4Mj0iMTI4IiB5MT0iMCIgeTI9IjI1NiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iLjE5MyIgc3RvcC1jb2xvcj0iI0ZDQjNCMiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0M1ODdFRSIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJJY29uaWZ5SWQxOTRmYTQyYTM4ZGNhYzdhNjMiIHgxPSIxODkuMDg5IiB4Mj0iMTUzLjU2NSIgeTE9IjEyNi43NjUiIHkyPSIyMDEuMTMyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI0ZGMTYzOSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGMTYzOSIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9nPjwvc3ZnPg==",
+        "logo" : "logo.png",
         "items" : [
             {
-                "numero" : "12",
-                "texto" : "Oficinas"
+                "texto" : "Compromiso",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
             },
             {
-                "numero" : "300+",
-                "texto" : "Empleados"
+                "texto" : "Profesionalismo",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
             },
             {
-                "numero" : "40",
-                "texto" : "Horas por dia"
+                "texto" : "Experiencia",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
             },
             {
-                "numero" : "+10",
-                "texto" : "Años de experiencia"
+                "texto" : "Responsabilidad",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+            },
+            {
+                "texto" : "Integridad",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+            },
+            {
+                "texto" : "Transparencia",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+            },
+            {
+                "texto" : "Honestidad",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
+            },
+            {
+                "texto" : "Excelencia",
+                "icono" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNlYTU4MGMiIGQ9Im0xMC42IDE2LjZsNy4wNS03LjA1bC0xLjQtMS40bC01LjY1IDUuNjVsLTIuODUtMi44NWwtMS40IDEuNHpNMTIgMjJxLTIuMDc1IDAtMy45LS43ODh0LTMuMTc1LTIuMTM3VDIuNzg4IDE1LjlUMiAxMnQuNzg4LTMuOXQyLjEzNy0zLjE3NVQ4LjEgMi43ODhUMTIgMnQzLjkuNzg4dDMuMTc1IDIuMTM3VDIxLjIxMyA4LjFUMjIgMTJ0LS43ODggMy45dC0yLjEzNyAzLjE3NXQtMy4xNzUgMi4xMzhUMTIgMjIiLz48L3N2Zz4="
             }
+ 
         ]
     },
 
@@ -53,7 +84,7 @@
         {
             "titulo" : "Impulsa el Crecimiento de tu Empresa con Estrategias Innovadoras",
             "descripcion" : "En un mundo empresarial en constante evolución, el crecimiento sostenible no es solo una meta, sino una necesidad. A través de estrategias personalizadas, innovación y una visión clara, tu empresa puede alcanzar nuevos niveles de éxito. Nuestro equipo de expertos te acompaña en cada paso, ayudándote a optimizar procesos, identificar oportunidades y fortalecer tu posición en el mercado. El futuro de tu negocio comienza hoy. ¡Construyámoslo juntos!",
-            "imagen" : "crecimientoDos.jpg"
+            "imagen" : "crecimiento.jpg"
         },
         {
             "titulo" : "Expande tus Fronteras: Oportunidades en el Comercio Exterior",
@@ -63,7 +94,7 @@
         {
             "titulo" : "Potencia tu Éxito con una Red de Contactos Sólida",
             "descripcion" : "El crecimiento empresarial no solo depende de estrategias y recursos, sino también de las conexiones correctas. Una red de contactos fuerte te abre puertas a nuevas oportunidades, alianzas estratégicas y colaboraciones clave para el éxito. Construir relaciones valiosas con profesionales y empresas del sector te permitirá impulsar tu negocio y acceder a conocimientos, experiencias y mercados que marcarán la diferencia.",
-            "imagen" : "redSol.jpg"
+            "imagen" : "red.jpg"
         }
     ],
 
@@ -75,7 +106,7 @@
         "empresa": "Empresa",
         "mensaje": "Mensaje",
         "boton": "Enviar Mensaje",
-        "imagenFondo": "redContactosUno.jpg"
+        "imagenFondo": "red.jpg"
     },
     "Footer": {
         "texto": "©2025 Consultoria Juan. Todos los derechos reservados."
