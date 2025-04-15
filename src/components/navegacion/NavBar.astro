@@ -9,7 +9,7 @@ import Data from "../../DATA/data-es.json";
   class="fixed top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 border-b border-black bg-slate-400 bg-opacity-60"
 >
   <div class="flex flex-row justify-between items-center p-2">
-    <img src={Data.About.logo} class="h-28 rounded-md ml-16" alt="" srcset="" />
+    <img src={Data.About.logo} class="h-14 md:h-28 rounded-md ml-16" alt="" srcset="" />
     <div class="flex flex-row mr-20">
       <div
         id="menu"
@@ -20,7 +20,7 @@ import Data from "../../DATA/data-es.json";
             index === 2 ? (
               <div class="relative group">
                 <NavItem title={elemento.titulo} url={elemento.url} />
-                <div class="absolute hidden group-hover:flex bg-white shadow-md rounded-md flex-col text-base py-2 px-3 text-clip">
+                <div class="md:absolute relative hidden group-hover:flex bg-slate-200 shadow-md rounded-md flex-col text-lg py-2 px-3 text-clip">
                   {Data.NavegacionSoluciones.map((solucion, index) => (
                     <NavSol title={solucion.titulo} url={solucion.url} />
                   ))}
