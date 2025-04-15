@@ -5,29 +5,31 @@
             "url": "/#Home"
         },
         {
-            "titulo": "About",
-            "url": "/#About"
-        },
-        {
             "titulo": "Soluciones",
             "url": "/#Soluciones"
         },
+
+        
         {
             "titulo": "Contacto",
             "url": "/contacto"
+        },
+        {
+            "titulo": "About",
+            "url": "/#About"
         }
     ],
     "NavegacionSoluciones": [
         {
-            "titulo": "Crecimiento",
+            "titulo": "DesarrolloEmpresarial",
             "url": "/soluciones/crecimiento"
         },
         {
-            "titulo": "Comercio Exterior",
+            "titulo": "ComercioExterior",
             "url": "/soluciones/internacional"
         },
         {
-            "titulo": "Red de Contactos",
+            "titulo": "Comunicaciones",
             "url": "/soluciones/redes"
         }
     ],
@@ -35,7 +37,8 @@
         "boton": "Saber Más",
         "imagen" : "fondito.jpg",
         "titulo" : "Growth Consultant",
-        "slogan" : "Promoviendo el exíto"
+        "slogan" : "Promoviendo el exíto",
+        "nombre" : "Avantek Group"
     },
 
     "About" : {
@@ -83,17 +86,17 @@
     "Soluciones" : [
         {
             "titulo" : "Impulsa el Crecimiento de tu Empresa con Estrategias Innovadoras",
-            "descripcion" : "En un mundo empresarial en constante evolución, el crecimiento sostenible no es solo una meta, sino una necesidad. A través de estrategias personalizadas, innovación y una visión clara, tu empresa puede alcanzar nuevos niveles de éxito. Nuestro equipo de expertos te acompaña en cada paso, ayudándote a optimizar procesos, identificar oportunidades y fortalecer tu posición en el mercado. El futuro de tu negocio comienza hoy. ¡Construyámoslo juntos!",
+            "descripcion" : "En un entorno cambiante, crecer requiere algo más que buenas intenciones: requiere visión, estrategia y acción. En nuestra consultora trabajamos junto a vos para identificar oportunidades, optimizar tu estructura y diseñar planes personalizados que te permitan avanzar con solidez. Combinamos pensamiento creativo con análisis riguroso para que tu negocio evolucione con inteligencia.",
             "imagen" : "crecimiento.jpg"
         },
         {
             "titulo" : "Expande tus Fronteras: Oportunidades en el Comercio Exterior",
-            "descripcion" : "El comercio internacional es la clave para llevar tu negocio al siguiente nivel. Acceder a nuevos mercados, diversificar clientes y optimizar cadenas de suministro te permitirá fortalecer tu competitividad global. Con una estrategia bien estructurada y el respaldo adecuado, tu empresa puede aprovechar al máximo las oportunidades del comercio exterior. Conectamos tu negocio con el mundo. ¡Haz crecer tu empresa sin límites!",
+            "descripcion" : "Te ayudamos a llevar tu empresa al siguiente nivel conectándola con el mundo. Brindamos asesoramiento integral en importaciones y exportaciones, localizamos proveedores confiables en el exterior y desarrollamos estrategias para ingresar a nuevos mercados. Facilitamos el proceso para que tu operación internacional sea ágil, rentable y segura, cuidando cada detalle.",
             "imagen" : "barco.jpg"
         },
         {
             "titulo" : "Potencia tu Éxito con una Red de Contactos Sólida",
-            "descripcion" : "El crecimiento empresarial no solo depende de estrategias y recursos, sino también de las conexiones correctas. Una red de contactos fuerte te abre puertas a nuevas oportunidades, alianzas estratégicas y colaboraciones clave para el éxito. Construir relaciones valiosas con profesionales y empresas del sector te permitirá impulsar tu negocio y acceder a conocimientos, experiencias y mercados que marcarán la diferencia.",
+            "descripcion" : "El crecimiento también se construye a través de las personas con las que te vinculás. Te acompañamos a generar conexiones estratégicas, alianzas comerciales y relaciones de valor que potencien tus objetivos. Contamos con una red activa y confiable que puede abrirte puertas clave, multiplicando tus oportunidades de negocio.",
             "imagen" : "red.jpg"
         }
     ],

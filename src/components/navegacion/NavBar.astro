@@ -17,13 +17,14 @@ import Data from "../../DATA/data-es.json";
       >
         {
           Data.Navegacion.map((elemento, index) => (
-            index === 2 ? (
+            index === 1 ? (
               <div class="relative group">
                 <NavItem title={elemento.titulo} url={elemento.url} />
-                <div class="md:absolute relative hidden group-hover:flex bg-slate-200 shadow-md rounded-md flex-col text-lg py-2 px-3 text-clip">
+                <div class="md:absolute relative hidden group-hover:flex flex-col bg-slate-200 shadow-md rounded-md text-lg py-2 px-3 text-clip">
                   {Data.NavegacionSoluciones.map((solucion, index) => (
                     <NavSol title={solucion.titulo} url={solucion.url} />
                   ))}
+                  
                 </div>
               </div>
             ) : (
@@ -61,15 +62,21 @@ import Data from "../../DATA/data-es.json";
     if (elemento) {
       elemento.classList.remove("backdrop-blur");
       elemento.classList.remove("border-b");
+      elemento.classList.remove("bg-slate-400");
+      elemento.classList.remove("bg-opacity-60");
 
       this.window.addEventListener("scroll", function () {
         if (elemento) {
           if (window.scrollY === 0) {
             elemento.classList.remove("backdrop-blur");
             elemento.classList.remove("border-b");
+            elemento.classList.remove("bg-slate-400");
+            elemento.classList.remove("bg-opacity-60");
           } else {
             elemento.classList.add("backdrop-blur");
             elemento.classList.add("border-b");
+            elemento.classList.add("bg-slate-400");
+            elemento.classList.add("bg-opacity-60");
           }
         }
       });

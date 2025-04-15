@@ -1,92 +1,92 @@
 ---
+// src/components/ContactForm.astro
 import Data from "../../DATA/data-es.json";
 ---
-<section
-  class="max-w-4xl md:mx-auto mx-4 my-6 p-8 shadow-xl rounded-lg ring-0 ring-gray-700 bg-gradient-to-tl from-gray-900 via-gray-800 to-gray-900"
->
-  <h2
-    class="text-center md:text-5xl text-3xl font-bold mb-6 pb-4 text-gray-100"
-  >
+
+<section class="max-w-5xl mx-auto my-12 px-6 py-10 bg-white rounded-2xl shadow-2xl animate-fadeIn transition-all duration-500 ease-in-out">
+  <h2 class="text-center text-4xl md:text-5xl font-bold mb-10 text-orange-400 drop-shadow-lg">
     Contáctanos
   </h2>
 
-  <form id="contactForm" class="space-y-4">
-    
+  <form id="contactForm" class="space-y-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div>
-        <label for="cliNombre" class="block text-lg font-medium text-gray-300"
-          >{Data.Contacto.nombre}</label
-        >
+      <div class="flex flex-col">
+        <label for="cliNombre" class="text-gray-700 font-medium mb-1">
+          {Data.Contacto.nombre}
+        </label>
         <input
           type="text"
           name="nombre"
           placeholder="Tu nombre"
-          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="rounded-lg border border-gray-300 p-3 bg-gray-100 focus:ring-2 focus:ring-sky-300 focus:outline-none"
         />
       </div>
-      <div>
-        <label for="cliApellido" class="block text-lg font-medium text-gray-300"
-          >{Data.Contacto.apellido}</label
-        >
+
+      <div class="flex flex-col">
+        <label for="cliApellido" class="text-gray-700 font-medium mb-1">
+          {Data.Contacto.apellido}
+        </label>
         <input
           type="text"
           name="apellido"
           placeholder="Tu apellido"
-          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="rounded-lg border border-gray-300 p-3 bg-gray-100 focus:ring-2 focus:ring-sky-300 focus:outline-none"
         />
       </div>
-      <div>
-        <label for="cliEmpresa" class="block text-lg font-medium text-gray-300"
-          >{Data.Contacto.empresa}</label
-        >
+
+      <div class="flex flex-col">
+        <label for="cliEmpresa" class="text-gray-700 font-medium mb-1">
+          {Data.Contacto.empresa}
+        </label>
         <input
           type="text"
           name="empresa"
           placeholder="Nombre de tu empresa"
-          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="rounded-lg border border-gray-300 p-3 bg-gray-100 focus:ring-2 focus:ring-sky-300 focus:outline-none"
         />
       </div>
-      <div>
-        <label for="cliAsunto" class="block text-lg font-medium text-gray-300"
-          >{Data.Contacto.asunto}</label
-        >
+
+      <div class="flex flex-col">
+        <label for="cliAsunto" class="text-gray-700 font-medium mb-1">
+          {Data.Contacto.asunto}
+        </label>
         <input
           type="text"
           name="asunto"
           placeholder="Tu asunto"
-          class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="rounded-lg border border-gray-300 p-3 bg-gray-100 focus:ring-2 focus:ring-sky-300 focus:outline-none"
         />
       </div>
     </div>
 
-    <div>
-      <label for="cliEmail" class="block text-lg font-medium text-gray-300"
-        >{Data.Contacto.correo}</label
-      >
+    <div class="flex flex-col">
+      <label for="cliEmail" class="text-gray-700 font-medium mb-1">
+        {Data.Contacto.correo}
+      </label>
       <input
         type="email"
         name="email"
         placeholder="correo@ejemplo.com"
-        class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="rounded-lg border border-gray-300 p-3 bg-gray-100 focus:ring-2 focus:ring-sky-300 focus:outline-none"
       />
     </div>
 
-    <div>
-      <label for="cliMensaje" class="block text-lg font-medium text-gray-300"
-        >{Data.Contacto.mensaje}</label
-      >
+    <div class="flex flex-col">
+      <label for="cliMensaje" class="text-gray-700 font-medium mb-1">
+        {Data.Contacto.mensaje}
+      </label>
       <textarea
         name="mensaje"
         rows="5"
         placeholder="Escribí tu mensaje aquí..."
-        class="mt-1 w-full p-3 border border-gray-600 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="rounded-lg border border-gray-300 p-3 bg-gray-100 focus:ring-2 focus:ring-sky-300 focus:outline-none resize-none"
       ></textarea>
     </div>
 
-    <div class="flex justify-center">
+    <div class="text-center pt-4">
       <button
         type="submit"
-        class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
+        class="bg-orange-300 hover:bg-orange-400 text-white font-semibold px-6 py-3 rounded-xl transition-transform transform hover:scale-105 duration-300"
       >
         {Data.Contacto.boton}
       </button>
@@ -94,4 +94,4 @@ import Data from "../../DATA/data-es.json";
   </form>
 </section>
 
-<script src="../../scripts/mailer.js"></script>
+<script src="../../scripts/mailer.js" defer></script>
