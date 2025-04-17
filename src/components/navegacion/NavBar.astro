@@ -20,12 +20,12 @@ import Data from "../../DATA/data-es.json";
             index === 1 ? (
               <div class="relative group">
                 <NavItem title={elemento.titulo} url={elemento.url} />
-                <div class="md:absolute relative hidden group-hover:flex flex-col bg-slate-200 shadow-md rounded-md text-lg py-2 px-3 text-clip">
+                {/* <div class="md:absolute relative hidden group-hover:flex flex-col bg-slate-200 shadow-md rounded-md text-lg py-2 px-3 text-clip">
                   {Data.NavegacionSoluciones.map((solucion, index) => (
                     <NavSol title={solucion.titulo} url={solucion.url} />
                   ))}
                   
-                </div>
+                </div> */}
               </div>
             ) : (
               <NavItem title={elemento.titulo} url={elemento.url} />

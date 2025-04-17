@@ -6,17 +6,17 @@
         },
         {
             "titulo": "Soluciones",
-            "url": "/#Soluciones"
+            "url": "/AvantekGroup/#Soluciones"
         },
 
         
         {
             "titulo": "Contacto",
-            "url": "/contacto"
+            "url": "/AvantekGroup/#Contacto"
         },
         {
             "titulo": "About",
-            "url": "/#About"
+            "url": "/AvantekGroup/#About"
         }
     ],
     "NavegacionSoluciones": [
