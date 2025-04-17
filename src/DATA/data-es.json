@@ -44,8 +44,9 @@
     "About" : {
         "titulo" : "Por qué Trabajar con Nosotros?",
         "descripcion" : "Contamos con años de experiencia acompañando empresas en su crecimiento. Nos enfocamos en soluciones concretas, personalizadas y orientadas a resultados reales. Trabajamos como aliados estratégicos, con compromiso, cercanía y visión a largo plazo.",
-        "cta" : "Contactame",
+        "cta" : "Contáctanos",
         "logo" : "logo.png",
+        "logoSitio" : "logodesitio.jpeg",
         "items" : [
             {
                 "texto" : "Compromiso",
